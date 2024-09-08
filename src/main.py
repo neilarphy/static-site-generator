@@ -9,7 +9,7 @@ def main():
     content_dir = 'content'
     tmplt = 'template.html'
     file_dst = 'public'
-
+    #testing new name
     copy_dir(source_dir, destination_dir)
     generate_pages_recursive(content_dir, tmplt, file_dst)
 
